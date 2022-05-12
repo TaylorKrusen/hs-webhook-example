@@ -1,4 +1,4 @@
-1. Clone this repo to your local environment.
+1. Clone this repo to your local environment and run `npm install`.
 2. Copy your HelloSign API Key into the _.env-example_ file and rename it to .env
 3. From the root folder of this repo, run `node server` to start the express server.
 4. In a separate shell, `ngrok http 8080` (port must match `PORT` in the server.js file). This creates a public url to your localhost which is used for webhooks.
